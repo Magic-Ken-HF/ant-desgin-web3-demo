@@ -33,7 +33,7 @@ const config = createConfig({
     [mainnet.id]: http(),
     [sepolia.id]: http(),
     [polygon.id]: http(), // Replace with your own RPC URL
-    [hardhat.id]: http("localhost:8545"), // Replace with your own RPC URL
+    [hardhat.id]: http("http://127.0.0.1:8545/"), // Replace with your own RPC URL
   },
   connectors: [
     injected({
